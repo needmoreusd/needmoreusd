@@ -1,16 +1,37 @@
-## Hi there 👋
+# needmoreusd@github:~$
 
-<!--
-**needmoreusd/needmoreusd** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```bash
+git clone https://github.com/needmoreusd
 
-Here are some ideas to get you started:
+cd poors
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+git branch
+* poors
+
+git status
+# working tree clean
+
+git checkout poors
+
+git pull --rebase
+
+find . -maxdepth 2
+
+tree
+
+ls -la
+
+cat README.md
+
+git log --oneline
+
+git add .
+
+git commit -m "poors"
+
+git push origin poors
+
+history | tail
+
+exit
+```
